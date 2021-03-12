@@ -12,7 +12,10 @@
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
-    .attribution{position: fixed; bottom: 0; left:50%}
+    .attribution{position: fixed; bottom: 0; right:50px;}
+    @media(min-width: 575px){
+      .attribution{position: fixed; bottom: 0; left:50px;}
+    }
   </style>
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -52,9 +55,9 @@
   
   
   
-  <!-- <div class="attribution">
+  <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#" target="_blank">Samir</a>.
-  </div> -->
+  </div>
 </body>
 </html>
